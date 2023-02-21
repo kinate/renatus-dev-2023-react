@@ -1,5 +1,11 @@
+import Home from "./pages/Home";
+
 const App: React.FC = () => {
-	return <div className="text-red-500">project setup</div>;
+	return (
+		<>
+			<Home />
+		</>
+	);
 };
 
 export default App;

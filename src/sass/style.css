@@ -58,21 +58,21 @@ Version:        1.0.0
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap");
 @font-face {
   font-family: "Futura PT";
-  src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.woff") format("woff");
+  src: url("../../public/fonts/FuturaPT-Demi.woff2") format("woff2"), url("../../public/fonts/FuturaPT-Demi.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Futura PT";
-  src: url("../fonts/FuturaPT-Heavy.woff2") format("woff2"), url("../fonts/FuturaPT-Heavy.woff") format("woff");
+  src: url("../../public/fonts/FuturaPT-Heavy.woff2") format("woff2"), url("../../public/fonts/FuturaPT-Heavy.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Futura PT";
-  src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff");
+  src: url("../../public/fonts/FuturaPT-Medium.woff2") format("woff2"), url("../../public/fonts/FuturaPT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -635,7 +635,7 @@ img {
 }
 .form select {
   font-style: normal;
-  background: url(../images/select-icon.png) no-repeat right center;
+  background: url(../../public/images/select-icon.png) no-repeat right center;
   display: inline-block;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -681,7 +681,7 @@ img {
 }
 
 .wpo-page-title {
-  background: url(../images/page-title2.jpg) no-repeat center top/cover;
+  background: url(../../public/images/page-title2.jpg) no-repeat center top/cover;
   min-height: 350px;
   position: relative;
   display: flex;
@@ -1245,7 +1245,7 @@ img {
 }
 .blog-sidebar .wpo-contact-widget {
   border: 0;
-  background: url(../images/bg-2.html) no-repeat center center;
+  background: url(../../public/images/bg-2.html) no-repeat center center;
   position: relative;
   background-size: cover;
   z-index: 1;
@@ -1275,7 +1275,7 @@ img {
 }
 .blog-sidebar .wpo-contact-widget h2::before {
   left: 28px;
-  background: url(../images/Single-title-shape2.html) no-repeat right center;
+  background: url(../../public/images/Single-title-shape2.html) no-repeat right center;
 }
 .blog-sidebar .wpo-contact-widget p {
   color: #fff;
@@ -3884,7 +3884,7 @@ img {
   width: 100%;
   height: 100%;
   content: "";
-  background: url(../images/blog/shape.png) no-repeat center center;
+  background: url(../../public/images/blog/shape.png) no-repeat center center;
   background-size: cover;
   z-index: -1;
 }
@@ -3906,7 +3906,7 @@ img {
   width: 100%;
   height: 100%;
   content: "";
-  background: url(../images/blog/shape.png) no-repeat center center;
+  background: url(../../public/images/blog/shape.png) no-repeat center center;
   background-size: cover;
   z-index: -1;
 }
@@ -6081,7 +6081,7 @@ img {
   height: 120px;
 }
 .wpo-service-single-area .wpo-service-single-wrap .wpo-service-contact-area .wpo-contact-form-area select.form-control {
-  background: #2c2c2c url(../images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: #2c2c2c url(../../public/images/select-icon2.png) no-repeat calc(100% - 15px) center;
 }
 .wpo-service-single-area .wpo-service-single-wrap .wpo-service-contact-area .wpo-contact-form-area .submit-area button {
   border-radius: 6px;
@@ -6664,7 +6664,7 @@ img {
   height: 120px;
 }
 .wpo-project-single-area .wpo-project-single-wrap .wpo-project-contact-area .wpo-contact-form-area select.form-control {
-  background: #2c2c2c url(../images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: #2c2c2c url(../../public/images/select-icon2.png) no-repeat calc(100% - 15px) center;
 }
 .wpo-project-single-area .wpo-project-single-wrap .wpo-project-contact-area .wpo-contact-form-area .submit-area button {
   border-radius: 6px;
@@ -7787,11 +7787,11 @@ img {
   -o-appearance: none;
   appearance: none;
   -moz-appearance: none;
-  background: transparent url(../images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(../../public/images/select-icon2.png) no-repeat calc(100% - 15px) center;
   position: relative;
 }
 .wpo-contact-pg-section form select:focus {
-  background: transparent url(../images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(../../public/images/select-icon2.png) no-repeat calc(100% - 15px) center;
 }
 .wpo-contact-pg-section form .submit-area {
   text-align: center;

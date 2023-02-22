@@ -1,11 +1,13 @@
 import Header from "../components/Header";
 import Hero from "../components/HomePage/Hero";
+import RecentWorks from "../components/HomePage/RecentWorks";
 
 const Home: React.FC = () => {
 	return (
-		<div>
+		<div className="page-wrapper">
 			{/* <Header /> */}
 			<Hero />
+			<RecentWorks />
 		</div>
 	);
 };

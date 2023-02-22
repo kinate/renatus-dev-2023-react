@@ -53,9 +53,9 @@ const Hero: React.FC = () => {
 					{/* TODO: Resize the image */}
 					<div className="static-hero-img-inner">
 						<img
-							src="/images/rena2c.jpg"
+							src="/images/rena.png"
 							alt=""
-							style={{ width: "540px", height: "540px" }}
+							style={{ width: "540px", height: "540px", objectFit: "cover", objectPosition: "center" }}
 						/>
 						<div className="icon-1 floating-item" style={{ border: '1px solid #eee'}}>
 							<img src="/images/icon/laravel.svg" alt="" />
